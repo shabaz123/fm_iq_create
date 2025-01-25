@@ -19,5 +19,5 @@ Scroll down and there should be a Source tab in the left side pane. Ensure it is
 
 At the top-left of the SDR++ application, click on the triangle (Play) button. You should hear very distorted audio; this is because there is a frequency offset. You need to set the offset to zero. The offset is shown at the top. Click on the digits to set it to zero.
 
-
+<img width="100%" align="left" src="sdrpp_example_screenshot.jpg">
 
