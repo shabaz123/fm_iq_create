@@ -28,9 +28,6 @@ y = fmmodulator(x);
 I = real(y);
 Q = imag(y);
 
-% put I,Q into a complex array
-iq = complex(I, Q);
-
 % build the stereo WAV file containing the I and Q outputs
 IQ_stereo = [I';Q']';
 audiowrite('iq_file.wav', IQ_stereo, 48e3);
